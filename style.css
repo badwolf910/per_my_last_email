@@ -454,6 +454,19 @@ input {
   letter-spacing: -0.045em;
 }
 
+.article-link {
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  text-underline-offset: 0.14em;
+  transition: color 0.2s ease, text-decoration-color 0.2s ease;
+}
+
+.article-link:hover,
+.article-link:focus-visible {
+  color: var(--accent-strong);
+  text-decoration-color: currentColor;
+}
+
 .story-card p,
 .feature-copy p,
 .quote-box p,
