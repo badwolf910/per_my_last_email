@@ -372,6 +372,14 @@ input {
   font-weight: 600;
 }
 
+.section-header .eyebrow,
+.feature-band .eyebrow,
+.list-section .eyebrow,
+.newsletter .eyebrow {
+  color: #070f58;
+  text-shadow: none;
+}
+
 .story-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
@@ -725,12 +733,13 @@ input {
   padding-top: 18px;
   padding-bottom: 28px;
   border-top: 1px solid var(--line);
-  color: var(--muted);
+  color: #070f58;
 }
 
 .site-footer p,
 .site-footer a {
   margin: 0;
+  color: #070f58;
 }
 
 .site-footer div {
