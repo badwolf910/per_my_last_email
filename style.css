@@ -553,6 +553,11 @@ input {
   font-size: clamp(1.3rem, 2vw, 2rem);
 }
 
+.notes-list article {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
 .notes-list time,
 .archive-list time {
   color: var(--muted);
