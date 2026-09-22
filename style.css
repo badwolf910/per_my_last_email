@@ -859,6 +859,13 @@ input {
   color: #070f58;
 }
 
+.site-footer > p:first-child {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-size: 0.68rem;
+  font-weight: 600;
+}
+
 .site-footer div {
   display: flex;
   align-items: center;
