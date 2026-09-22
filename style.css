@@ -353,9 +353,11 @@ input {
 .section-header,
 .list-header {
   display: flex;
-  align-items: end;
-  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 18px;
+  text-align: center;
 }
 
 .section-header h2,
@@ -530,6 +532,13 @@ input {
 
 .feature-copy p {
   max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.feature-copy {
+  text-align: center;
 }
 
 .quote-box {
@@ -591,11 +600,13 @@ input {
 
 .newsletter {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 42px;
   padding-top: 30px;
   padding-bottom: 48px;
+  text-align: center;
 }
 
 .newsletter-form {
@@ -603,6 +614,7 @@ input {
   align-items: center;
   gap: 12px;
   width: min(100%, 620px);
+  justify-content: center;
 }
 
 .newsletter-form input {
