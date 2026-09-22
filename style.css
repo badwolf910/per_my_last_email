@@ -525,7 +525,7 @@ input {
 }
 
 .quote-box {
-  background: linear-gradient(135deg, rgba(177, 132, 80, 0.28), rgba(113, 69, 40, 0.74), rgba(72, 43, 29, 0.92));
+  background: linear-gradient(135deg, rgba(222, 190, 141, 0.72), rgba(177, 132, 80, 0.82), rgba(126, 82, 48, 0.86));
   border: 1px solid rgba(255, 248, 235, 0.46);
   border-radius: 28px;
   padding: 28px 26px;
@@ -536,13 +536,13 @@ input {
   font-family: "Cormorant Garamond", serif;
   font-size: clamp(2rem, 2.7vw, 3rem);
   line-height: 1;
-  color: var(--ink);
+  color: #352117;
 }
 
 .quote-box span {
   display: block;
   margin-top: 18px;
-  color: #4c3428;
+  color: #4a2d1d;
 }
 
 .list-section {
