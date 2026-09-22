@@ -1,19 +1,19 @@
 :root {
-  --bg: #0b0f10;
-  --bg-soft: #101a18;
-  --panel: rgba(18, 20, 24, 0.84);
-  --panel-strong: #171c1d;
-  --card: rgba(19, 25, 25, 0.94);
-  --ink: #f3eee7;
-  --muted: #cabca9;
-  --line: rgba(213, 178, 122, 0.14);
-  --accent: #d7b87a;
-  --accent-strong: #f3d7a4;
-  --deep: #0e7b63;
-  --deep-strong: #135b4c;
-  --plum: #2b1d2d;
-  --plum-soft: #4a2a4c;
-  --shadow: 0 30px 90px rgba(5, 7, 7, 0.56);
+  --bg: #070b0a;
+  --bg-soft: #0d211b;
+  --panel: rgba(13, 24, 21, 0.86);
+  --panel-strong: #12221d;
+  --card: rgba(13, 27, 23, 0.94);
+  --ink: #f8f0e4;
+  --muted: #c9c0ae;
+  --line: rgba(232, 195, 116, 0.18);
+  --accent: #e2b95f;
+  --accent-strong: #ffe09a;
+  --deep: #087f5b;
+  --deep-strong: #075b43;
+  --plum: #28182a;
+  --plum-soft: #56304f;
+  --shadow: 0 30px 90px rgba(0, 4, 2, 0.72);
 }
 
 * {
@@ -29,9 +29,10 @@ body {
   min-height: 100vh;
   font-family: "Inter", sans-serif;
   background:
-    radial-gradient(circle at top left, rgba(15, 125, 100, 0.18), transparent 22%),
-    radial-gradient(circle at bottom right, rgba(43, 29, 45, 0.32), transparent 26%),
-    linear-gradient(180deg, #090d0e 0%, #101a18 32%, #17131a 100%);
+    radial-gradient(circle at 12% 4%, rgba(21, 157, 112, 0.25), transparent 23%),
+    radial-gradient(circle at 88% 78%, rgba(87, 44, 77, 0.34), transparent 28%),
+    repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.012) 0 1px, transparent 1px 5px),
+    linear-gradient(150deg, #050806 0%, #0a1210 44%, #160e17 100%);
   color: var(--ink);
   letter-spacing: -0.01em;
 }
@@ -54,8 +55,10 @@ input {
 .page-shell {
   width: min(1220px, calc(100% - 28px));
   margin: 24px auto 48px;
-  background: linear-gradient(180deg, rgba(13, 18, 19, 0.9), rgba(18, 14, 20, 0.88));
-  border: 1px solid rgba(213, 178, 122, 0.18);
+  background:
+    radial-gradient(circle at 18% 0%, rgba(10, 117, 81, 0.16), transparent 32%),
+    linear-gradient(180deg, rgba(8, 20, 16, 0.94), rgba(20, 11, 21, 0.94));
+  border: 1px solid rgba(232, 195, 116, 0.2);
   border-radius: 34px;
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -99,7 +102,7 @@ input {
   display: grid;
   place-items: center;
   border-radius: 12px;
-  background: linear-gradient(135deg, var(--accent), var(--deep), #d9cab2 100%);
+  background: linear-gradient(135deg, #ffe5a6 0%, var(--accent) 38%, var(--deep) 100%);
   color: #0d1212;
   font-weight: 800;
   letter-spacing: 0.06em;
@@ -115,6 +118,7 @@ input {
 
 .eyebrow.accent {
   color: var(--accent-strong);
+  text-shadow: 0 0 18px rgba(255, 207, 111, 0.28);
 }
 
 .brand-sub {
@@ -214,7 +218,7 @@ input {
 }
 
 .button.primary {
-  background: linear-gradient(135deg, var(--deep) 0%, #1d8d72 28%, #e5c082 100%);
+  background: linear-gradient(135deg, #08734f 0%, #0e9a6d 38%, #f0c86e 100%);
   color: #11171a;
   box-shadow: 0 18px 42px rgba(15, 125, 100, 0.26);
 }
@@ -253,8 +257,8 @@ input {
 
 .hero-card {
   align-self: end;
-  background: linear-gradient(180deg, rgba(25, 31, 31, 0.98), rgba(17, 20, 22, 0.92));
-  border: 1px solid rgba(213, 178, 122, 0.16);
+  background: linear-gradient(180deg, rgba(16, 38, 30, 0.98), rgba(12, 17, 16, 0.95));
+  border: 1px solid rgba(232, 195, 116, 0.2);
   border-radius: 28px;
   padding: 24px 22px;
   box-shadow: 0 28px 80px rgba(7, 10, 12, 0.38);
