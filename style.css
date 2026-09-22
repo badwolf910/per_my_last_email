@@ -11,6 +11,8 @@
   --accent-strong: #ffe09a;
   --deep: #087f5b;
   --deep-strong: #075b43;
+  --sapphire: #174f9a;
+  --sapphire-bright: #2875c7;
   --plum: #28182a;
   --plum-soft: #56304f;
   --shadow: 0 30px 90px rgba(0, 4, 2, 0.72);
@@ -102,10 +104,12 @@ input {
   display: grid;
   place-items: center;
   border-radius: 12px;
-  background: linear-gradient(135deg, #ffe5a6 0%, var(--accent) 38%, var(--deep) 100%);
-  color: #0d1212;
+  background: linear-gradient(135deg, #0b9b70 0%, var(--deep) 42%, var(--sapphire) 100%);
+  border: 1px solid rgba(255, 224, 154, 0.76);
+  color: #f8f1df;
   font-weight: 800;
   letter-spacing: 0.06em;
+  box-shadow: 0 0 0 1px rgba(7, 127, 91, 0.35), 0 8px 28px rgba(10, 103, 135, 0.34), 0 0 22px rgba(255, 210, 112, 0.16);
 }
 
 .eyebrow {
@@ -218,9 +222,16 @@ input {
 }
 
 .button.primary {
-  background: linear-gradient(135deg, #08734f 0%, #0e9a6d 38%, #f0c86e 100%);
-  color: #11171a;
-  box-shadow: 0 18px 42px rgba(15, 125, 100, 0.26);
+  background: linear-gradient(115deg, #08734f 0%, #07966b 42%, var(--sapphire) 100%);
+  border-color: rgba(255, 224, 154, 0.72);
+  color: #fff8e9;
+  box-shadow: 0 18px 42px rgba(7, 103, 91, 0.3), 0 0 22px rgba(255, 210, 112, 0.12);
+}
+
+.button.primary:hover,
+.button.primary:focus-visible {
+  background: linear-gradient(115deg, #0b956b 0%, #0aa978 42%, var(--sapphire-bright) 100%);
+  box-shadow: 0 20px 46px rgba(7, 119, 113, 0.38), 0 0 28px rgba(255, 215, 125, 0.2);
 }
 
 .button.secondary {
