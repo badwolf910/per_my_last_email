@@ -526,7 +526,7 @@ input {
 .quote-box span {
   display: block;
   margin-top: 18px;
-  color: var(--muted);
+  color: #4c3428;
 }
 
 .list-section {
