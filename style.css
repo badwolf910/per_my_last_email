@@ -382,6 +382,11 @@ input {
   text-shadow: none;
 }
 
+.hero-copy .eyebrow.accent {
+  color: #070f58;
+  text-shadow: none;
+}
+
 .story-grid {
   display: grid;
   grid-template-columns: 1.2fr 1fr 1fr;
