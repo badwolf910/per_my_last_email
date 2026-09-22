@@ -330,8 +330,8 @@ input {
   border-radius: 50%;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, var(--leaf), var(--leaf-light));
-  color: #26331f;
+  background: #070f58;
+  color: #fffaf0;
   font-weight: 700;
 }
 
