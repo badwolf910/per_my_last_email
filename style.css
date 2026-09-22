@@ -74,7 +74,10 @@ input {
 .feature-band,
 .newsletter,
 .archive-grid,
-.article-wrap {
+.article-wrap,
+.list-section,
+.page-hero,
+.article-header {
   padding-left: clamp(20px, 3vw, 54px);
   padding-right: clamp(20px, 3vw, 54px);
 }
