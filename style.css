@@ -353,11 +353,9 @@ input {
 .section-header,
 .list-header {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  align-items: end;
+  justify-content: space-between;
   gap: 18px;
-  text-align: center;
 }
 
 .section-header h2,
@@ -631,13 +629,10 @@ input {
 
 .feature-copy p {
   max-width: 640px;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
 }
 
 .feature-copy {
-  text-align: center;
+  text-align: left;
 }
 
 .quote-box {
@@ -699,13 +694,11 @@ input {
 
 .newsletter {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   gap: 42px;
   padding-top: 30px;
   padding-bottom: 48px;
-  text-align: center;
 }
 
 .newsletter-form {
@@ -713,6 +706,9 @@ input {
   align-items: center;
   gap: 12px;
   width: min(100%, 620px);
+}
+
+.hero-meta {
   justify-content: center;
 }
 
