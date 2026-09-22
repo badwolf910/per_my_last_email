@@ -1,21 +1,19 @@
 :root {
-  --bg: #070b0a;
-  --bg-soft: #0d211b;
-  --panel: rgba(13, 24, 21, 0.86);
-  --panel-strong: #12221d;
-  --card: rgba(13, 27, 23, 0.94);
-  --ink: #f8f0e4;
-  --muted: #c9c0ae;
-  --line: rgba(232, 195, 116, 0.18);
-  --accent: #e2b95f;
-  --accent-strong: #ffe09a;
-  --deep: #087f5b;
-  --deep-strong: #075b43;
-  --sapphire: #174f9a;
-  --sapphire-bright: #2875c7;
-  --plum: #28182a;
-  --plum-soft: #56304f;
-  --shadow: 0 30px 90px rgba(0, 4, 2, 0.72);
+  --bg: #060506;
+  --bg-soft: #101617;
+  --panel: rgba(19, 14, 23, 0.9);
+  --panel-strong: #211526;
+  --card: rgba(18, 16, 22, 0.96);
+  --ink: #f4eee7;
+  --muted: #c6b9b6;
+  --line: rgba(202, 163, 107, 0.2);
+  --accent: #b9935a;
+  --accent-strong: #e2c487;
+  --deep: #164c3d;
+  --deep-strong: #0d3028;
+  --plum: #261326;
+  --plum-soft: #4b2748;
+  --shadow: 0 30px 90px rgba(0, 0, 0, 0.78);
 }
 
 * {
@@ -31,10 +29,10 @@ body {
   min-height: 100vh;
   font-family: "Inter", sans-serif;
   background:
-    radial-gradient(circle at 12% 4%, rgba(21, 157, 112, 0.25), transparent 23%),
-    radial-gradient(circle at 88% 78%, rgba(87, 44, 77, 0.34), transparent 28%),
+    radial-gradient(circle at 12% 4%, rgba(35, 93, 71, 0.22), transparent 23%),
+    radial-gradient(circle at 88% 78%, rgba(91, 42, 82, 0.32), transparent 28%),
     repeating-linear-gradient(115deg, rgba(255, 255, 255, 0.012) 0 1px, transparent 1px 5px),
-    linear-gradient(150deg, #050806 0%, #0a1210 44%, #160e17 100%);
+    linear-gradient(150deg, #030304 0%, #0d0b10 46%, #1a0d1b 100%);
   color: var(--ink);
   letter-spacing: -0.01em;
 }
@@ -58,9 +56,9 @@ input {
   width: min(1220px, calc(100% - 28px));
   margin: 24px auto 48px;
   background:
-    radial-gradient(circle at 18% 0%, rgba(10, 117, 81, 0.16), transparent 32%),
-    linear-gradient(180deg, rgba(8, 20, 16, 0.94), rgba(20, 11, 21, 0.94));
-  border: 1px solid rgba(232, 195, 116, 0.2);
+    radial-gradient(circle at 18% 0%, rgba(25, 79, 61, 0.18), transparent 32%),
+    linear-gradient(180deg, rgba(10, 9, 13, 0.96), rgba(25, 12, 25, 0.96));
+  border: 1px solid rgba(202, 163, 107, 0.22);
   border-radius: 34px;
   box-shadow: var(--shadow);
   overflow: hidden;
@@ -104,12 +102,12 @@ input {
   display: grid;
   place-items: center;
   border-radius: 12px;
-  background: linear-gradient(135deg, #0b9b70 0%, var(--deep) 42%, var(--sapphire) 100%);
-  border: 1px solid rgba(255, 224, 154, 0.76);
-  color: #f8f1df;
+  background: linear-gradient(135deg, #315f4a 0%, var(--deep) 42%, var(--plum-soft) 100%);
+  border: 1px solid rgba(226, 196, 135, 0.68);
+  color: #f4e8d2;
   font-weight: 800;
   letter-spacing: 0.06em;
-  box-shadow: 0 0 0 1px rgba(7, 127, 91, 0.35), 0 8px 28px rgba(10, 103, 135, 0.34), 0 0 22px rgba(255, 210, 112, 0.16);
+  box-shadow: 0 0 0 1px rgba(31, 88, 66, 0.35), 0 8px 28px rgba(34, 10, 38, 0.42), 0 0 22px rgba(206, 164, 93, 0.12);
 }
 
 .eyebrow {
@@ -222,16 +220,16 @@ input {
 }
 
 .button.primary {
-  background: linear-gradient(115deg, #08734f 0%, #07966b 42%, var(--sapphire) 100%);
-  border-color: rgba(255, 224, 154, 0.72);
-  color: #fff8e9;
-  box-shadow: 0 18px 42px rgba(7, 103, 91, 0.3), 0 0 22px rgba(255, 210, 112, 0.12);
+  background: linear-gradient(115deg, #173f33 0%, #245c49 46%, var(--plum-soft) 100%);
+  border-color: rgba(226, 196, 135, 0.62);
+  color: #f7edde;
+  box-shadow: 0 18px 42px rgba(5, 18, 14, 0.42), 0 0 22px rgba(190, 142, 78, 0.1);
 }
 
 .button.primary:hover,
 .button.primary:focus-visible {
-  background: linear-gradient(115deg, #0b956b 0%, #0aa978 42%, var(--sapphire-bright) 100%);
-  box-shadow: 0 20px 46px rgba(7, 119, 113, 0.38), 0 0 28px rgba(255, 215, 125, 0.2);
+  background: linear-gradient(115deg, #245b48 0%, #34765b 46%, #65365f 100%);
+  box-shadow: 0 20px 46px rgba(11, 45, 33, 0.48), 0 0 28px rgba(213, 168, 97, 0.16);
 }
 
 .button.secondary {
@@ -268,8 +266,8 @@ input {
 
 .hero-card {
   align-self: end;
-  background: linear-gradient(180deg, rgba(16, 38, 30, 0.98), rgba(12, 17, 16, 0.95));
-  border: 1px solid rgba(232, 195, 116, 0.2);
+  background: linear-gradient(180deg, rgba(30, 18, 32, 0.98), rgba(12, 16, 15, 0.96));
+  border: 1px solid rgba(202, 163, 107, 0.2);
   border-radius: 28px;
   padding: 24px 22px;
   box-shadow: 0 28px 80px rgba(7, 10, 12, 0.38);
