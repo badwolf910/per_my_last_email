@@ -872,13 +872,13 @@ input {
 
 @media (max-width: 640px) {
   .page-shell {
-    width: min(100% - 16px, 1220px);
+    width: min(100% - 32px, 1220px);
     margin-top: 16px;
   }
 
   .cat-break {
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 16px;
+    margin-right: 16px;
     padding: 18px;
   }
 
