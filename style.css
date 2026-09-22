@@ -720,10 +720,6 @@ input {
   width: min(100%, 620px);
 }
 
-.hero-meta {
-  justify-content: center;
-}
-
 .newsletter-form input {
   flex: 1;
   min-width: 0;
